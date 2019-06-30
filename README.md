@@ -11,13 +11,13 @@
 #### Downloaded the dataset. 
 #### Categorical slicers include Primary Type, ID, Case Number, Arrest?, Domestic?, Location, Numerical slicer includes the 'date range' (where you can slide accordingly)
 ##### Primary Type:
-
+![Chicago_Crimes_PrimaryTypeLevels](https://user-images.githubusercontent.com/19572673/60402834-ddb15f00-9b62-11e9-9e13-c355a228ea22.PNG)
 ##### ID: Unique ID Assigned to Event 
 ##### Case Number: Unique Case Number Assigned to Event
 ##### Arrest?: True / False 
 ##### Domestic?: True / False
 ##### Location:
-
+![Chicago_Crimes_LocationsLevels](https://user-images.githubusercontent.com/19572673/60402833-ddb15f00-9b62-11e9-8dd6-44b0818fe594.PNG)
 ##### Date Range:
 ![Chicago_Crimes_Slicers](https://user-images.githubusercontent.com/19572673/60401626-8dca9c00-9b52-11e9-9918-5ee940b8040d.PNG)
 #### Word Cloud
