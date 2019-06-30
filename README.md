@@ -10,7 +10,17 @@
 ## Basic Steps:
 #### Downloaded the dataset. 
 #### Categorical slicers include Primary Type, ID, Case Number, Arrest?, Domestic?, Location, Numerical slicer includes the 'date range' (where you can slide accordingly)
-##### Primary Type: 
+##### Primary Type:
+[1] "ARSON"                             "ASSAULT"                           "BATTERY"                          
+[4] "BURGLARY"                          "CONCEALED CARRY LICENSE VIOLATION" "CRIM SEXUAL ASSAULT"              
+ [7] "CRIMINAL DAMAGE"                   "CRIMINAL TRESPASS"                 "DECEPTIVE PRACTICE"               
+[10] "GAMBLING"                          "HOMICIDE"                          "HUMAN TRAFFICKING"                
+[13] "INTERFERENCE WITH PUBLIC OFFICER"  "INTIMIDATION"                      "KIDNAPPING"                       
+[16] "LIQUOR LAW VIOLATION"              "MOTOR VEHICLE THEFT"               "NARCOTICS"                        
+[19] "NON-CRIMINAL"                      "OBSCENITY"                         "OFFENSE INVOLVING CHILDREN"       
+[22] "OTHER NARCOTIC VIOLATION"          "OTHER OFFENSE"                     "PROSTITUTION"                     
+[25] "PUBLIC PEACE VIOLATION"            "ROBBERY"                           "SEX OFFENSE"                      
+[28] "STALKING"                          "THEFT"                             "WEAPONS VIOLATION" 
 ##### ID:
 ##### Case Number: 
 ##### Arrest?:
