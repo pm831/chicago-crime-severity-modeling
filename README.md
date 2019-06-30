@@ -12,3 +12,5 @@ Chicago Zip Code Crime Analysis
 ### Arrest
 ### Domestic
 ### Location
+## Heat Map
+## Word Cloud
