@@ -11,16 +11,16 @@
 #### Downloaded the dataset. 
 #### Categorical slicers include Primary Type, ID, Case Number, Arrest?, Domestic?, Location, Numerical slicer includes the 'date range' (where you can slide accordingly)
 ##### Primary Type:
-"ARSON"                             "ASSAULT"                           "BATTERY"                          
-"BURGLARY"                          "CONCEALED CARRY LICENSE VIOLATION" "CRIM SEXUAL ASSAULT"              
-"CRIMINAL DAMAGE"                   "CRIMINAL TRESPASS"                 "DECEPTIVE PRACTICE"               
-"GAMBLING"                          "HOMICIDE"                          "HUMAN TRAFFICKING"                
-"INTERFERENCE WITH PUBLIC OFFICER"  "INTIMIDATION"                      "KIDNAPPING"                       
-"LIQUOR LAW VIOLATION"              "MOTOR VEHICLE THEFT"               "NARCOTICS"                        
-"NON-CRIMINAL"                      "OBSCENITY"                         "OFFENSE INVOLVING CHILDREN"       
-"OTHER NARCOTIC VIOLATION"          "OTHER OFFENSE"                     "PROSTITUTION"                     
-"PUBLIC PEACE VIOLATION"            "ROBBERY"                           "SEX OFFENSE"                      
-"STALKING"                          "THEFT"                             "WEAPONS VIOLATION" 
+ARSON                             ASSAULT                            BATTERY                          
+BURGLARY                          CONCEALED CARRY LICENSE VIOLATION  CRIM SEXUAL ASSAULT              
+CRIMINAL DAMAGE                   CRIMINAL TRESPASS                  DECEPTIVE PRACTICE               
+GAMBLING                          HOMICIDE                           HUMAN TRAFFICKING                
+INTERFERENCE WITH PUBLIC OFFICER  INTIMIDATION                       KIDNAPPING                       
+LIQUOR LAW VIOLATION              MOTOR VEHICLE THEFT                NARCOTICS                        
+NON-CRIMINAL                      OBSCENITY                          OFFENSE INVOLVING CHILDREN       
+OTHER NARCOTIC VIOLATION          OTHER OFFENSE                      PROSTITUTION                     
+PUBLIC PEACE VIOLATION            ROBBERY                            SEX OFFENSE                      
+STALKING                          THEFT                              WEAPONS VIOLATION 
 ##### ID:
 ##### Case Number: 
 ##### Arrest?:
