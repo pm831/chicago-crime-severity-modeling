@@ -20,6 +20,6 @@ Chicago Zip Code Crime Analysis
 ##### Date Range:
 ![Chicago_Crimes_Slicers](https://user-images.githubusercontent.com/19572673/60401626-8dca9c00-9b52-11e9-9918-5ee940b8040d.PNG)
 #### Word Cloud
-![Lending_Club_Monthly_Trend](https://user-images.githubusercontent.com/19572673/60401067-3e806d80-9b4a-11e9-8927-4ce829cac2b8.PNG)
+![Chicago_Crimes_WordCloud](https://user-images.githubusercontent.com/19572673/60401686-3b3daf80-9b53-11e9-8f85-a523b2b5976a.PNG)
 #### Zip Heat Map
-![Lending_Club_WordCloud](https://user-images.githubusercontent.com/19572673/60401068-3e806d80-9b4a-11e9-8cae-e2063cb9aa2e.PNG)
+![Chicago_Crimes_HeatMap](https://user-images.githubusercontent.com/19572673/60401685-3b3daf80-9b53-11e9-9fc2-81c5e6cfe324.PNG)
