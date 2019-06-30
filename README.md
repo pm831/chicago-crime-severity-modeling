@@ -18,7 +18,7 @@ Chicago Zip Code Crime Analysis
 ##### Domestic?:
 ##### Location:
 ##### Date Range:
-![Lending_Club_Loans_Analysis_Slicers](https://user-images.githubusercontent.com/19572673/57423158-d4e68180-71e0-11e9-9f81-4caaeed99774.PNG)
+![Chicago_Crimes_Slicers](https://user-images.githubusercontent.com/19572673/60401626-8dca9c00-9b52-11e9-9918-5ee940b8040d.PNG)
 ##### Loan Status Distribution
 ![Lending_Club_Loans_Analysis_Loan_Status](https://user-images.githubusercontent.com/19572673/57498385-ada7b700-72a9-11e9-8edd-2769be9153d1.PNG)
 ##### Loan Grade Distribution
