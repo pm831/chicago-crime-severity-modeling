@@ -11,21 +11,13 @@
 #### Downloaded the dataset. 
 #### Categorical slicers include Primary Type, ID, Case Number, Arrest?, Domestic?, Location, Numerical slicer includes the 'date range' (where you can slide accordingly)
 ##### Primary Type:
-ARSON                             ASSAULT                            BATTERY                          
-BURGLARY                          CONCEALED CARRY LICENSE VIOLATION  CRIM SEXUAL ASSAULT              
-CRIMINAL DAMAGE                   CRIMINAL TRESPASS                  DECEPTIVE PRACTICE               
-GAMBLING                          HOMICIDE                           HUMAN TRAFFICKING                
-INTERFERENCE WITH PUBLIC OFFICER  INTIMIDATION                       KIDNAPPING                       
-LIQUOR LAW VIOLATION              MOTOR VEHICLE THEFT                NARCOTICS                        
-NON-CRIMINAL                      OBSCENITY                          OFFENSE INVOLVING CHILDREN       
-OTHER NARCOTIC VIOLATION          OTHER OFFENSE                      PROSTITUTION                     
-PUBLIC PEACE VIOLATION            ROBBERY                            SEX OFFENSE                      
-STALKING                          THEFT                              WEAPONS VIOLATION 
-##### ID:
-##### Case Number: 
-##### Arrest?:
-##### Domestic?:
+
+##### ID: Unique ID Assigned to Event 
+##### Case Number: Unique Case Number Assigned to Event
+##### Arrest?: True / False 
+##### Domestic?: True / False
 ##### Location:
+
 ##### Date Range:
 ![Chicago_Crimes_Slicers](https://user-images.githubusercontent.com/19572673/60401626-8dca9c00-9b52-11e9-9918-5ee940b8040d.PNG)
 #### Word Cloud
