@@ -1,4 +1,3 @@
-![chicagocity](https://user-images.githubusercontent.com/19572673/62321589-fcac5500-b470-11e9-94bb-48b260df9115.jpg)
 # Crime Analysis Data Exploration
 ![Chicago_Zip_Code_Crime_Analysis](https://user-images.githubusercontent.com/19572673/57345072-8f11b680-7117-11e9-90d0-8a55e88f4544.PNG)
 ## Abstract:
