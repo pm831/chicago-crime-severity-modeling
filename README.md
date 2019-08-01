@@ -7,13 +7,17 @@ Every day, there are a numerous amount of crimes that occur across the country a
 ### Figuring out specific Chicago Zips with the highest number of crimes given a period of time
 
 ## Initial Dataset:
-### Chicago Crimes Dataset
+### Chicago Crimes Dataset - Small subsample Chicago Crimes Dataset from https://www.kaggle.com/currie32/crimes-in-chicago
 
 ## Software:
 ### PowerBI
 
 ## Basic Steps:
 #### Downloaded the dataset. 
+
+## Summary:
+The bottom-line goal is to figure out specific Chicago Zips with the highest number of crimes reported within a period of time. Up on the User Interface, there is a 'date range' slicer to which the user can select the appropriate time frame. To drill down, there is a 'Primary Type' slicer which defines the type of crime. To test the severity of the crime, there are the 'Arrest?' and Domestic? slicers. To figure out what type of location crime happened, there is the 'Location' slicer.
+When the end-user clicks on one of the options, the entire dashboard/UI drills down further to get into the point of interest, including the 'Word Cloud' and 'Heat Map'. The word cloud provides a more detailed description of the crime. The Heat Map provides the latitude and longitude coordinates of the zip as well as a special color scheme. The higher the number of crimes in the zip, the bigger and darker the circle. So from a simple 'business' perspective, the problem solving process to decrease the rate of a particular type of crime within a Zip/Area would start at the aforementioned.
 
 #### Categorical slicers include Primary Type, ID, Case Number, Arrest?, Domestic?, Location, Numerical slicer includes the 'date range' (where you can slide accordingly)
 ##### Primary Type:
