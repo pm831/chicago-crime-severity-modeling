@@ -13,7 +13,8 @@ https://en.wikipedia.org/wiki/Crime_in_Chicago
 
 Approximately 10 people are shot on an average day in Chicago.
 ##### http://www.chicagotribune.com/news/data/ct-shooting-victims-map-charts-htmlstory.html 
-##### http://www.chicagotribune.com/news/local/breaking/ct-chicago-homicides-data-tracker-htmlstory.html ##### http://www.chicagotribune.com/news/local/breaking/ct-homicide-victims-2017-htmlstory.html
+##### http://www.chicagotribune.com/news/local/breaking/ct-chicago-homicides-data-tracker-htmlstory.html 
+##### http://www.chicagotribune.com/news/local/breaking/ct-homicide-victims-2017-htmlstory.html
 
 ## Use Case:
 ### Figuring out specific Chicago Zips with the highest number of crimes given a period of time
