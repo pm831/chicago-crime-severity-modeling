@@ -1,25 +1,46 @@
 ![chicagocity](https://user-images.githubusercontent.com/19572673/62322030-1b5f1b80-b472-11e9-8b62-a8f5b56383f7.jpg)
 # Chicago Crime Analysis Data Exploration
 ![Chicago_Zip_Code_Crime_Analysis](https://user-images.githubusercontent.com/19572673/57345072-8f11b680-7117-11e9-90d0-8a55e88f4544.PNG)
+
+
+
 ## Abstract:
 Every day, there are a numerous amount of crimes that occur across the country and the world. This can include major metropolitan areas with high populations and business activity. In this analysis, we look at the city of Chicago. What makes a Chicago dangerous? What types of crimes occur in within Chicago, primarily at the zip level? Which zips/areas have the highest concentration of crimes? What is the level of 'seriousness' for these crimes? Which zips/areas have the highest concentration of serious crimes? And after find that out, what days/times do they occur?  All of these questions are looked at in the analysis below.
-
-
 
 ## Overview:
 Crime in Chicago has been tracked by the Chicago Police Department's Bureau of Records since the beginning of the 20th century. The city's overall crime rate, especially the violent crime rate, is higher than the US average. Chicago was responsible for nearly half of 2016's increase in homicides in the US, though the nation's crime rates remain near historic lows. The reasons for the higher numbers in Chicago remain unclear. An article in The Atlantic detailed how researchers and analysts had come to no real consensus on the cause for the violence.
 https://en.wikipedia.org/wiki/Crime_in_Chicago
 
+Approximately 10 people are shot on an average day in Chicago.
+http://www.chicagotribune.com/news/data/ct-shooting-victims-map-charts-htmlstory.html 
+http://www.chicagotribune.com/news/local/breaking/ct-chicago-homicides-data-tracker-htmlstory.html http://www.chicagotribune.com/news/local/breaking/ct-homicide-victims-2017-htmlstory.html
+
 ## Use Case:
 ### Figuring out specific Chicago Zips with the highest number of crimes given a period of time
 
 ## Initial Dataset:
-### Chicago Crimes Dataset - Small subsample Chicago Crimes Dataset from https://www.kaggle.com/currie32/crimes-in-chicago
+### Chicago Crimes Dataset - Small subsample Chicago Crimes Dataset from https://www.kaggle.com/chicago/chicago-crime
 
 ## Software:
 ### PowerBI
+## Data Context:
+This dataset reflects reported incidents of crime (with the exception of murders where data exists for each victim) that occurred in the City of Chicago from 2001 to present, minus the most recent seven days. Data is extracted from the Chicago Police Department's CLEAR (Citizen Law Enforcement Analysis and Reporting) system. In order to protect the privacy of crime victims, addresses are shown at the block level only and specific locations are not identified. This data includes unverified reports supplied to the Police Department. The preliminary crime classifications may be changed at a later date based upon additional investigation and there is always the possibility of mechanical or human error. Therefore, the Chicago Police Department does not guarantee (either expressed or implied) the accuracy, completeness, timeliness, or correct sequencing of the information and the information should not be used for comparison purposes over time.
 
-## Data:
+Update Frequency: Daily
+
+Fork this kernel to get started.
+
+Acknowledgements
+https://bigquery.cloud.google.com/dataset/bigquery-public-data:chicago_crime
+https://cloud.google.com/bigquery/public-data/chicago-crime-data
+
+Dataset Source: City of Chicago
+
+This dataset is publicly available for anyone to use under the following terms provided by the Dataset Source —https://data.cityofchicago.org — and is provided "AS IS" without any warranty, express or implied, from Google. Google disclaims all liability for any damages, direct or indirect, resulting from the use of the dataset.
+
+Banner Photo by Ferdinand Stohr from Unplash. 
+
+## Data Fields:
 ##### unique_key: Unique identifier for the record.
 ##### case_number: The Chicago Police Department RD Number (Records Division Number), which is unique to the incident.
 ##### Date Date: when the incident occurred. this is sometimes a best estimate.
