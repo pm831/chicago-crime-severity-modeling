@@ -2,8 +2,6 @@
 # Chicago Crime Analysis Data Exploration
 ![Chicago_Zip_Code_Crime_Analysis](https://user-images.githubusercontent.com/19572673/57345072-8f11b680-7117-11e9-90d0-8a55e88f4544.PNG)
 
-
-
 ## Abstract:
 Every day, there are a numerous amount of crimes that occur across the country and the world. This can include major metropolitan areas with high populations and business activity. In this analysis, we look at the city of Chicago. What makes a Chicago dangerous? What types of crimes occur in within Chicago, primarily at the zip level? Which zips/areas have the highest concentration of crimes? What is the level of 'seriousness' for these crimes? Which zips/areas have the highest concentration of serious crimes? And after find that out, what days/times do they occur?  All of these questions are looked at in the analysis below.
 
@@ -21,20 +19,21 @@ Approximately 10 people are shot on an average day in Chicago.
 ### Figuring out specific Chicago Zips with the highest number of crimes given a period of time
 
 ## Initial Dataset:
-### Chicago Crimes Dataset - Small subsample Chicago Crimes Dataset from https://www.kaggle.com/chicago/chicago-crime
+### Chicago Crimes Dataset 
 
 ## Software:
 ### PowerBI
 ## Data Context:
 This dataset reflects reported incidents of crime (with the exception of murders where data exists for each victim) that occurred in the City of Chicago from 2001 to present, minus the most recent seven days. Data is extracted from the Chicago Police Department's CLEAR (Citizen Law Enforcement Analysis and Reporting) system. In order to protect the privacy of crime victims, addresses are shown at the block level only and specific locations are not identified. This data includes unverified reports supplied to the Police Department. The preliminary crime classifications may be changed at a later date based upon additional investigation and there is always the possibility of mechanical or human error. Therefore, the Chicago Police Department does not guarantee (either expressed or implied) the accuracy, completeness, timeliness, or correct sequencing of the information and the information should not be used for comparison purposes over time.
 
+##### https://www.kaggle.com/chicago/chicago-crime
 Update Frequency: Daily
 
 Fork this kernel to get started.
 
 Acknowledgements
-https://bigquery.cloud.google.com/dataset/bigquery-public-data:chicago_crime
-https://cloud.google.com/bigquery/public-data/chicago-crime-data
+##### https://bigquery.cloud.google.com/dataset/bigquery-public-data:chicago_crime
+##### https://cloud.google.com/bigquery/public-data/chicago-crime-data
 
 Dataset Source: City of Chicago
 
