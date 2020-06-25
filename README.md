@@ -137,6 +137,7 @@ Zip Heat Map
 
 ![Chicago_Crimes_HeatMap](https://user-images.githubusercontent.com/19572673/60401685-3b3daf80-9b53-11e9-9fc2-81c5e6cfe324.PNG)
 
+![Map Viz](https://user-images.githubusercontent.com/19572673/85783658-84d4c200-b6f5-11ea-8caf-9a5a2c09ebc9.PNG)
 ![Crimes vs  Poverty Viz](https://user-images.githubusercontent.com/19572673/85777591-c2cee780-b6ef-11ea-98c3-439e6d88437e.PNG)
 ![output_43_0](https://user-images.githubusercontent.com/19572673/85777642-cbbfb900-b6ef-11ea-9d1a-617670106ada.png)
 ![output_45_1](https://user-images.githubusercontent.com/19572673/85777645-cbbfb900-b6ef-11ea-9edb-d66986a5594d.png)
