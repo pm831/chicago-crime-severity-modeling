@@ -218,11 +218,11 @@ Heatmap: Day of Week by Type
 
 ![output_77_1](https://user-images.githubusercontent.com/19572673/85777655-ccf0e600-b6ef-11ea-9a6d-c79b245a2c98.png)
 
-Heatmap: Location by Type
+Heatmap: Normalized location frequency for each crime:
 
 ![output_78_0](https://user-images.githubusercontent.com/19572673/85777656-cd897c80-b6ef-11ea-9858-ec3454df0f75.png)
 
-Heatmap: Normalized location frequency for each crime:
+Heatmap: Location by Type
 
 ![output_95_0](https://user-images.githubusercontent.com/19572673/85777657-cd897c80-b6ef-11ea-9e80-d5d85b7e7218.png)
 
