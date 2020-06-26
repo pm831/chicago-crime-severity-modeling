@@ -109,8 +109,6 @@ When the end-user clicks on one of the options, the entire dashboard/UI drills d
 Categorical slicers include Primary Type, ID, Case Number, Arrest?, Domestic?, Location, Numerical slicer includes the 'date range' (where you can slide accordingly)
 Primary Type:
 
-![Chicago_Crimes_PrimaryTypeLevels](https://user-images.githubusercontent.com/19572673/60402834-ddb15f00-9b62-11e9-9e13-c355a228ea22.PNG)
-
 ID: Unique ID Assigned to Event 
 
 Case Number: Unique Case Number Assigned to Event
@@ -125,10 +123,6 @@ Old PowerBI Data Visualization (by Zip Code):
 https://github.com/pm831/City_Of_Chicago_Crime_Analysis/blob/master/Chicago_Crimes_Visualization.pbix
 
 ![Chicago_Zip_Code_Crime_Analysis](https://user-images.githubusercontent.com/19572673/57345072-8f11b680-7117-11e9-90d0-8a55e88f4544.PNG)
-
-Location:
-
-![Chicago_Crimes_LocationsLevels](https://user-images.githubusercontent.com/19572673/60402833-ddb15f00-9b62-11e9-8dd6-44b0818fe594.PNG)
 
 Date Range:
 
