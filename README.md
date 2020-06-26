@@ -149,12 +149,15 @@ Python (Jupyter Notebook) Visualization:
 https://github.com/pm831/City_Of_Chicago_Crime_Analysis/blob/master/Chicago%20Crime%20Analysis.ipynb
 
 Number of Crimes by Type:
+
 ![output_43_0](https://user-images.githubusercontent.com/19572673/85777642-cbbfb900-b6ef-11ea-9d1a-617670106ada.png)
 
 Occurence Rate: Types of Crimes:
+
 ![output_45_1](https://user-images.githubusercontent.com/19572673/85777645-cbbfb900-b6ef-11ea-9edb-d66986a5594d.png)
 
 Occurence Rate: Scene of Crimes:
+
 ![output_48_1](https://user-images.githubusercontent.com/19572673/85777646-cbbfb900-b6ef-11ea-9d98-5b03e14118e9.png)
 
 
