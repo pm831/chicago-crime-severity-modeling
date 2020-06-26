@@ -179,6 +179,8 @@ Normalized Crime Types by Location:
 
 Normalized Crime Types by Time:
 
+![Normalized_Crime_By_Hour](https://user-images.githubusercontent.com/19572673/85808259-4f929900-b722-11ea-9977-966c165b1fe7.png)
+
 Normalized Crime Types by Day:
 
 ![Normalized_Crime_By_Day](https://user-images.githubusercontent.com/19572673/85807845-186fb800-b721-11ea-9d62-251c2f568007.png)
@@ -187,35 +189,55 @@ Normalized Crime Types by Month:
 
 ![Normalized_Crime_By_Month](https://user-images.githubusercontent.com/19572673/85807847-186fb800-b721-11ea-8986-99de6d18a558.png)
 
-Crime Rates: Forecast
+Crime Rates: Forecast:
 
 ![output_68_0](https://user-images.githubusercontent.com/19572673/85777648-cc584f80-b6ef-11ea-9813-a553ce41edd0.png)
 
+Heatmap: Crime types correlation based on arrest or domestic 
+(to note seriousness of crime)
+
 ![output_69_1](https://user-images.githubusercontent.com/19572673/85777649-cc584f80-b6ef-11ea-978e-d4b8ced1c64c.png)
+
+Heatmap: Hour by Location
 
 ![output_73_1](https://user-images.githubusercontent.com/19572673/85777650-ccf0e600-b6ef-11ea-8fcd-dd940d4158b1.png)
 
+Heatmap: Hour by Type
+
 ![output_74_1](https://user-images.githubusercontent.com/19572673/85777651-ccf0e600-b6ef-11ea-899b-7648f8649161.png)
+
+Heatmap: Hour by Week
 
 ![output_75_1](https://user-images.githubusercontent.com/19572673/85777652-ccf0e600-b6ef-11ea-9bb5-02339b2a39f9.png)
 
+Heatmap: Day of Week by Location
+
 ![output_76_1](https://user-images.githubusercontent.com/19572673/85777654-ccf0e600-b6ef-11ea-851f-a620f41cc7af.png)
+
+Heatmap: Day of Week by Type
 
 ![output_77_1](https://user-images.githubusercontent.com/19572673/85777655-ccf0e600-b6ef-11ea-9a6d-c79b245a2c98.png)
 
+Heatmap: Location by Type
+
 ![output_78_0](https://user-images.githubusercontent.com/19572673/85777656-cd897c80-b6ef-11ea-9858-ec3454df0f75.png)
 
+Heatmap: Normalized location frequency for each crime:
 
 ![output_95_0](https://user-images.githubusercontent.com/19572673/85777657-cd897c80-b6ef-11ea-9e80-d5d85b7e7218.png)
+
 
 
 ![output_96_0](https://user-images.githubusercontent.com/19572673/85777659-cd897c80-b6ef-11ea-8205-9d75a79045ba.png)
 
 
+
 ![output_97_0](https://user-images.githubusercontent.com/19572673/85777660-ce221300-b6ef-11ea-9c06-025c3fe39a2f.png)
 
 
+
 ![output_104_1](https://user-images.githubusercontent.com/19572673/85777661-ce221300-b6ef-11ea-847d-1a35592ef12c.png)
+
 
 
 ![output_105_1](https://user-images.githubusercontent.com/19572673/85777662-ce221300-b6ef-11ea-95bc-aeabb4eeb4e0.png)
