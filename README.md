@@ -122,6 +122,7 @@ Domestic?: True / False
 ### Data Visualization
 
 Old PowerBI Data Visualization (by Zip Code):
+https://github.com/pm831/City_Of_Chicago_Crime_Analysis/blob/master/Chicago_Crimes_Visualization.pbix
 
 ![Chicago_Zip_Code_Crime_Analysis](https://user-images.githubusercontent.com/19572673/57345072-8f11b680-7117-11e9-90d0-8a55e88f4544.PNG)
 
@@ -143,47 +144,47 @@ Zip Heat Map:
 
 PowerBI Data Visualization (new and modified):
 
-
 ![Map Viz](https://user-images.githubusercontent.com/19572673/85783658-84d4c200-b6f5-11ea-8caf-9a5a2c09ebc9.PNG)
 
 Tableau Data Visualization (new and modified):
-
+https://public.tableau.com/profile/pujan.malavia#!/
 
 ![Crimes vs  Poverty Viz](https://user-images.githubusercontent.com/19572673/85777591-c2cee780-b6ef-11ea-98c3-439e6d88437e.PNG)
 
 Python (Jupyter Notebook) Visualization:
+https://github.com/pm831/City_Of_Chicago_Crime_Analysis/blob/master/Chicago%20Crime%20Analysis.ipynb
 
-
+Number of Crimes by Type:
 ![output_43_0](https://user-images.githubusercontent.com/19572673/85777642-cbbfb900-b6ef-11ea-9d1a-617670106ada.png)
 
-
+Occurence Rate: Types of Crimes:
 ![output_45_1](https://user-images.githubusercontent.com/19572673/85777645-cbbfb900-b6ef-11ea-9edb-d66986a5594d.png)
 
-
+Occurence Rate: Scene of Crimes:
 ![output_48_1](https://user-images.githubusercontent.com/19572673/85777646-cbbfb900-b6ef-11ea-9d98-5b03e14118e9.png)
 
-
+Occurence Rate: Hour Crime Occured:
 ![output_68_0](https://user-images.githubusercontent.com/19572673/85777648-cc584f80-b6ef-11ea-9813-a553ce41edd0.png)
 
-
+Occurence Rate: Day Crime Occured:
 ![output_69_1](https://user-images.githubusercontent.com/19572673/85777649-cc584f80-b6ef-11ea-978e-d4b8ced1c64c.png)
 
-
+Occurence Rate: Month Crime Occured:
 ![output_73_1](https://user-images.githubusercontent.com/19572673/85777650-ccf0e600-b6ef-11ea-8fcd-dd940d4158b1.png)
 
-
+Normalized Crime Types by Location:
 ![output_74_1](https://user-images.githubusercontent.com/19572673/85777651-ccf0e600-b6ef-11ea-899b-7648f8649161.png)
 
-
+Normalized Crime Types by Time:
 ![output_75_1](https://user-images.githubusercontent.com/19572673/85777652-ccf0e600-b6ef-11ea-9bb5-02339b2a39f9.png)
 
-
+Normalized Crime Types by Day:
 ![output_76_1](https://user-images.githubusercontent.com/19572673/85777654-ccf0e600-b6ef-11ea-851f-a620f41cc7af.png)
 
-
+Normalized Crime Types by Month:
 ![output_77_1](https://user-images.githubusercontent.com/19572673/85777655-ccf0e600-b6ef-11ea-9a6d-c79b245a2c98.png)
 
-
+#Crime Rates: Forecast
 ![output_78_0](https://user-images.githubusercontent.com/19572673/85777656-cd897c80-b6ef-11ea-9858-ec3454df0f75.png)
 
 
