@@ -160,7 +160,6 @@ Occurence Rate: Scene of Crimes:
 
 ![output_48_1](https://user-images.githubusercontent.com/19572673/85777646-cbbfb900-b6ef-11ea-9d98-5b03e14118e9.png)
 
-
 Occurence Rate: Hour Crime Occured:
 
 ![time_hour](https://user-images.githubusercontent.com/19572673/85807848-19084e80-b721-11ea-97f0-d54b746d850e.png)
@@ -222,23 +221,37 @@ Heatmap: Normalized location frequency for each crime:
 
 ![output_78_0](https://user-images.githubusercontent.com/19572673/85777656-cd897c80-b6ef-11ea-9858-ec3454df0f75.png)
 
-Heatmap: Location by Type
+Normalized Z-Score: Severity Comparison by the following variables
+Latitude
+Longitude
+House_below_poverty
+Unemployed
+Under18_over64
+Income
+Hardship Index
 
 ![output_95_0](https://user-images.githubusercontent.com/19572673/85777657-cd897c80-b6ef-11ea-9e80-d5d85b7e7218.png)
 
-
+Normalized Z-Score: Severity Comparison by the following variables
+Latitude
+Longitude
+House_below_poverty
+Unemployed
+Under18_over64
+Income
+Hardship Index
 
 ![output_96_0](https://user-images.githubusercontent.com/19572673/85777659-cd897c80-b6ef-11ea-8205-9d75a79045ba.png)
 
-
+Plot those indicator variables that will be good predictor for whether a crime will be severe or not.
 
 ![output_97_0](https://user-images.githubusercontent.com/19572673/85777660-ce221300-b6ef-11ea-9c06-025c3fe39a2f.png)
 
-
+Training Accuracy comparison between Baseline model and Random Forest
 
 ![output_104_1](https://user-images.githubusercontent.com/19572673/85777661-ce221300-b6ef-11ea-847d-1a35592ef12c.png)
 
-
+Testing Accuracy comparison between Baseline model and Random Forest
 
 ![output_105_1](https://user-images.githubusercontent.com/19572673/85777662-ce221300-b6ef-11ea-95bc-aeabb4eeb4e0.png)
 
