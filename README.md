@@ -221,24 +221,38 @@ Heatmap: Normalized location frequency for each crime:
 
 ![output_78_0](https://user-images.githubusercontent.com/19572673/85777656-cd897c80-b6ef-11ea-9858-ec3454df0f75.png)
 
-Normalized Z-Score: Severity Comparison by the following variables
+Normalized Z-Score: Severity Comparison by the following variables:
+
 Latitude
+
 Longitude
+
 House_below_poverty
+
 Unemployed
+
 Under18_over64
+
 Income
+
 Hardship Index
 
 ![output_95_0](https://user-images.githubusercontent.com/19572673/85777657-cd897c80-b6ef-11ea-9e80-d5d85b7e7218.png)
 
-Normalized Z-Score: Severity Comparison by the following variables
+Normalized Z-Score: Severity Comparison by the following variables:
+
 Latitude
+
 Longitude
+
 House_below_poverty
+
 Unemployed
+
 Under18_over64
+
 Income
+
 Hardship Index
 
 ![output_96_0](https://user-images.githubusercontent.com/19572673/85777659-cd897c80-b6ef-11ea-8205-9d75a79045ba.png)
