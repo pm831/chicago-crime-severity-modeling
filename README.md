@@ -163,19 +163,32 @@ Occurence Rate: Types of Crimes:
 Occurence Rate: Scene of Crimes:
 ![output_48_1](https://user-images.githubusercontent.com/19572673/85777646-cbbfb900-b6ef-11ea-9d98-5b03e14118e9.png)
 
+
 Occurence Rate: Hour Crime Occured:
+
+![time_hour](https://user-images.githubusercontent.com/19572673/85807848-19084e80-b721-11ea-97f0-d54b746d850e.png)
 
 Occurence Rate: Day Crime Occured:
 
+![day](https://user-images.githubusercontent.com/19572673/85807843-17d72180-b721-11ea-829b-8b805371e07f.png)
+
 Occurence Rate: Month Crime Occured:
 
+![month_occurence](https://user-images.githubusercontent.com/19572673/85807844-186fb800-b721-11ea-9b16-f9da02debc97.png)
+
 Normalized Crime Types by Location:
+
+![Normalized_Crime_By_Location](https://user-images.githubusercontent.com/19572673/85807846-186fb800-b721-11ea-8a71-62c76ac14967.png)
 
 Normalized Crime Types by Time:
 
 Normalized Crime Types by Day:
 
+![Normalized_Crime_By_Day](https://user-images.githubusercontent.com/19572673/85807845-186fb800-b721-11ea-9d62-251c2f568007.png)
+
 Normalized Crime Types by Month:
+
+![Normalized_Crime_By_Month](https://user-images.githubusercontent.com/19572673/85807847-186fb800-b721-11ea-8986-99de6d18a558.png)
 
 Crime Rates: Forecast
 
