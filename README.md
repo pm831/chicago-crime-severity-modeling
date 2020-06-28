@@ -1,4 +1,4 @@
-# Chicago Crime Analysis Data Exploration
+# Chicago Crime Data Visualization & Severity Modeling
 ### Pujan Malavia
 
 ![chicagocity](https://user-images.githubusercontent.com/19572673/62322030-1b5f1b80-b472-11e9-8b62-a8f5b56383f7.jpg)
@@ -36,7 +36,9 @@ Chicago Crimes Dataset
 ### Software:
 Python, PowerBI, Tableau
 
-### Techniques: Random Forest
+### Techniques: 
+
+Random Forest
 
 ### Data Context:
 
@@ -110,18 +112,57 @@ When the end-user clicks on one of the options, the entire dashboard/UI drills d
 
 ### Data Curation Process:
 
-The two classification algorithms I used were Random Forest and AdaBoost. The Random Forest is a bagging technique where a certain number of decision trees are grown on different subsets of the training data. It is also known to have low bias and high variance and has an equal amount of say in the final decision in modeling. 
+The two classification algorithm I used was the Random Forest. The Random Forest is a bagging technique where a certain number of decision trees are grown on different subsets of the training data. It is also known to have low bias and high variance and has an equal amount of say in the final decision in modeling. 
 
-Categorical slicers include Primary Type, ID, Case Number, Arrest?, Domestic?, Location, Numerical slicer includes the 'date range' (where you can slide accordingly)
-Primary Type:
+I performed the following data preparation/data visualization techniques.
 
-ID: Unique ID Assigned to Event 
+Data Preparation
 
-Case Number: Unique Case Number Assigned to Event
+0. Imported Chicago crimes dataset and zip code dataset.
 
-Arrest?: True / False 
+```
+print()
+```
 
-Domestic?: True / False
+1. Treat missing values by removing NAs (Chicago crimes dataset).
+
+2. Filtered the dataset to reflect years with the most activity (Chicago crimes dataset).
+
+3. Joined the zip code dataset to existing Chicago Crimes dataset based on lat and long coordinates. 
+
+4. Filtered only Top 25 Primary Type counts for Crime (for relevance) and dropped "OTHER OFFENSE"
+
+5. Created a defined list of severe crimes where:
+
+5A. If Primary Type equals one of them, the new column would mark it as severe (1). 
+
+5B. If not, new column would be labeled as not severe (0).
+
+5C. Crime severity column eventually becomes the response variable. 
+
+6. Filtered only Top 25 Location Description counts for Crime (for relevance)
+
+7. Filtered only Top 22 District counts for Crime (for relevance) and rename levels of District levels of taxonomy.
+
+8. Create dummy variables for 'Primary Type' and 'District' which would be used later in the random forest model.
+
+9. Creat new columns from the date column (time_24hour, Timeblock, Date_no_time, Weekday) 
+
+10. Create dummy variables for Timeblock and Weekday respectively.
+
+11. After this process, dropped NaNs in the dataframe.
+
+12. Imported and joined the provertys dataset to exisitng Chicago crimes dataset. 
+
+
+
+Data Visualization
+
+
+
+Modeling
+
+
 
 ### Data Visualization
 
