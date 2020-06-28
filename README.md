@@ -34,7 +34,9 @@ Figuring out specific Chicago Zips with the highest number of crimes given a per
 Chicago Crimes Dataset 
 
 ### Software:
-PowerBI
+Python, PowerBI, Tableau
+
+### Techniques: Random Forest
 
 ### Data Context:
 
@@ -105,6 +107,10 @@ Location: The location where the incident occurred in a format that allows for c
 ### Summary:
 The bottom-line goal is to figure out specific Chicago Zips with the highest number of crimes reported within a period of time. Up on the User Interface, there is a 'date range' slicer to which the user can select the appropriate time frame. To drill down, there is a 'Primary Type' slicer which defines the type of crime. To test the severity of the crime, there are the 'Arrest?' and Domestic? slicers. To figure out what type of location crime happened, there is the 'Location' slicer.
 When the end-user clicks on one of the options, the entire dashboard/UI drills down further to get into the point of interest, including the 'Word Cloud' and 'Heat Map'. The word cloud provides a more detailed description of the crime. The Heat Map provides the latitude and longitude coordinates of the zip as well as a special color scheme. The higher the number of crimes in the zip, the bigger and darker the circle. So from a simple 'business' perspective, the problem solving process to decrease the rate of a particular type of crime within a Zip/Area would start at the aforementioned.
+
+### Data Curation Process:
+
+The two classification algorithms I used were Random Forest and AdaBoost. The Random Forest is a bagging technique where a certain number of decision trees are grown on different subsets of the training data. It is also known to have low bias and high variance and has an equal amount of say in the final decision in modeling. 
 
 Categorical slicers include Primary Type, ID, Case Number, Arrest?, Domestic?, Location, Numerical slicer includes the 'date range' (where you can slide accordingly)
 Primary Type:
@@ -269,3 +275,14 @@ Testing Accuracy comparison between Baseline model and Random Forest
 
 ![output_105_1](https://user-images.githubusercontent.com/19572673/85777662-ce221300-b6ef-11ea-95bc-aeabb4eeb4e0.png)
 
+### Communication of Results to Business Partner:
+
+To a business partner, I would explain that the Random Forest (all else equal) would work better for complex data (high variance, low bias) that’s a bit more unknown in terms of predictors’ effect on the response variable since it looks at all predictor variables equally in terms of its importance. 
+
+### Future Work: 
+
+Continue to do hyperparameter tuning of the model and creating new features/removing old features to help increase the prediction accuracy of the model
+
+Try other types of models to see if the accuracy rate improves
+
+More data visualization/patterns within the dataset (external sources) that can lead to more insights and decision-making from a business perspective
