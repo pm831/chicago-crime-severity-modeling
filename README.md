@@ -28,7 +28,7 @@ http://www.chicagotribune.com/news/local/breaking/ct-chicago-homicides-data-trac
 http://www.chicagotribune.com/news/local/breaking/ct-homicide-victims-2017-htmlstory.html
 
 ### Use Case:
-Figuring out specific Chicago Zips with the highest number of crimes given a period of time
+Building a model to predict the severity of a crime in Chicago as well as visualizing the frequency of crimes when compared to poverty rates.
 
 ### Initial Dataset(s):
 Chicago Crimes Dataset 
@@ -116,55 +116,136 @@ The two classification algorithm I used was the Random Forest. The Random Forest
 
 I performed the following data preparation/data visualization techniques.
 
-Data Preparation
+Data Preparation/Data Visualization
 
-0. Imported Chicago crimes dataset and zip code dataset.
+Python (Jupyter Notebook) Visualization:
+https://github.com/pm831/City_Of_Chicago_Crime_Analysis/blob/master/Chicago%20Crime%20Analysis.ipynb
 
-```
-print()
-```
+1. Imported Chicago crimes dataset and zip code dataset.
 
-1. Treat missing values by removing NAs (Chicago crimes dataset).
+2. Treated missing values by removing NAs (Chicago crimes dataset).
 
-2. Filtered the dataset to reflect years with the most activity (Chicago crimes dataset).
+3. Filtered the dataset to reflect years with the most activity (Chicago crimes dataset).
 
-3. Joined the zip code dataset to existing Chicago Crimes dataset based on lat and long coordinates. 
+4. Joined the zip code dataset to existing Chicago Crimes dataset based on lat and long coordinates. 
 
-4. Filtered only Top 25 Primary Type counts for Crime (for relevance) and dropped "OTHER OFFENSE"
+5. Filtered only Top 25 'Primary Type' counts for Crime (for relevance) and dropped 'OTHER'.
 
-5. Created a defined list of severe crimes where:
+6. Created a defined list of severe crimes where:
 
-5A. If Primary Type equals one of them, the new column would mark it as severe (1). 
+7A. If 'Primary Type' equals one of defined list of severe crimes, the new column would mark it as severe (1). 
 
-5B. If not, new column would be labeled as not severe (0).
+7B. If 'Primary Type' does not equal one of defined list of severe crimes, new column would be labeled as not severe (0).
 
-5C. Crime severity column eventually becomes the response variable. 
+7C. Crime severity column eventually becomes the response variable. 
 
-6. Filtered only Top 25 Location Description counts for Crime (for relevance)
+8. Filtered only Top 25 Location Description counts for Crime (for relevance).
 
-7. Filtered only Top 22 District counts for Crime (for relevance) and rename levels of District levels of taxonomy.
+9. Filtered only Top 22 District counts for Crime (for relevance) and rename levels of District levels of taxonomy.
 
-8. Create dummy variables for 'Primary Type' and 'District' which would be used later in the random forest model.
+10. Created dummy variables for 'Primary Type' and 'District' which would be used later in the random forest model.
 
-9. Creat new columns from the date column (time_24hour, Timeblock, Date_no_time, Weekday) 
+11. Created new columns from the date column (time_24hour, Timeblock, Date_no_time, Weekday).
 
-10. Create dummy variables for Timeblock and Weekday respectively.
+12. Create dummy variables for Timeblock and Weekday respectively.
 
-11. After this process, dropped NaNs in the dataframe.
+13. After this process, dropped NaNs in the dataframe.
 
-12. Imported and joined the provertys dataset to exisitng Chicago crimes dataset. 
+14. Imported and joined the provertys dataset to exisitng Chicago crimes dataset. 
 
+15. Created dummy variables for 'Location Description' and dropped 'OTHER'.
 
+16. Created Horizontal bar plot for 'Number of crimes by type'.
 
-Data Visualization
+Number of Crimes by Type:
 
+![output_43_0](https://user-images.githubusercontent.com/19572673/85777642-cbbfb900-b6ef-11ea-9d1a-617670106ada.png)
 
+17. Calculated Occurrence rates of the various types of crime, Location Description and plotted via bar plot.
 
-Modeling
+Occurence Rate: Types of Crimes:
 
+![output_45_1](https://user-images.githubusercontent.com/19572673/85777645-cbbfb900-b6ef-11ea-9edb-d66986a5594d.png)
 
+Occurence Rate: Scene of Crimes:
 
-### Data Visualization
+![output_48_1](https://user-images.githubusercontent.com/19572673/85777646-cbbfb900-b6ef-11ea-9d98-5b03e14118e9.png)
+
+18. Created new columns from the date column (time_hour, month).
+
+19. Calculated Occurrence rates of the hour of crime, day of crime, month of crime and plotted via bar plot.
+
+Occurence Rate: Hour Crime Occured:
+
+![time_hour](https://user-images.githubusercontent.com/19572673/85807848-19084e80-b721-11ea-97f0-d54b746d850e.png)
+
+Occurence Rate: Day Crime Occured:
+
+![day](https://user-images.githubusercontent.com/19572673/85807843-17d72180-b721-11ea-829b-8b805371e07f.png)
+
+Occurence Rate: Month Crime Occured:
+
+![month_occurence](https://user-images.githubusercontent.com/19572673/85807844-186fb800-b721-11ea-9b16-f9da02debc97.png)
+
+20. Created a new column (from pre-built function) that would take the top 4 types of 'Primary Type' and label the rest as 'Other' for 5 levels of the new taxonomy.
+
+21. Plotted Normalized Crime Types by Location, Time, Day, Month (from pre-built function).
+
+Normalized Crime Types by Location:
+
+![Normalized_Crime_By_Location](https://user-images.githubusercontent.com/19572673/85807846-186fb800-b721-11ea-8a71-62c76ac14967.png)
+
+Normalized Crime Types by Time:
+
+![Normalized_Crime_By_Hour](https://user-images.githubusercontent.com/19572673/85808259-4f929900-b722-11ea-9977-966c165b1fe7.png)
+
+Normalized Crime Types by Day:
+
+![Normalized_Crime_By_Day](https://user-images.githubusercontent.com/19572673/85807845-186fb800-b721-11ea-9d62-251c2f568007.png)
+
+Normalized Crime Types by Month:
+
+![Normalized_Crime_By_Month](https://user-images.githubusercontent.com/19572673/85807847-186fb800-b721-11ea-8986-99de6d18a558.png)
+
+22. Plotted Time Series Graph (in 30 day intervals) of crime rates types.
+
+Crime Rates: Forecast:
+
+![output_68_0](https://user-images.githubusercontent.com/19572673/85777648-cc584f80-b6ef-11ea-9813-a553ce41edd0.png)
+
+23. Plotted heat map of crime types correlation based on arrest or domestic (to note seriousness of crime).
+
+Heatmap: Crime types correlation based on arrest or domestic (to note seriousness of crime)
+
+![output_69_1](https://user-images.githubusercontent.com/19572673/85777649-cc584f80-b6ef-11ea-978e-d4b8ced1c64c.png)
+
+24. Plotted heat map of the following: Hour by Location, Hour by Type, Hour by Week, Day of Week by Location, Day of Week by Type, Location by Type.
+
+Heatmap: Hour by Location
+
+![output_73_1](https://user-images.githubusercontent.com/19572673/85777650-ccf0e600-b6ef-11ea-8fcd-dd940d4158b1.png)
+
+Heatmap: Hour by Type
+
+![output_74_1](https://user-images.githubusercontent.com/19572673/85777651-ccf0e600-b6ef-11ea-899b-7648f8649161.png)
+
+Heatmap: Hour by Week
+
+![output_75_1](https://user-images.githubusercontent.com/19572673/85777652-ccf0e600-b6ef-11ea-9bb5-02339b2a39f9.png)
+
+Heatmap: Day of Week by Location
+
+![output_76_1](https://user-images.githubusercontent.com/19572673/85777654-ccf0e600-b6ef-11ea-851f-a620f41cc7af.png)
+
+Heatmap: Day of Week by Type
+
+![output_77_1](https://user-images.githubusercontent.com/19572673/85777655-ccf0e600-b6ef-11ea-9a6d-c79b245a2c98.png)
+
+Heatmap: Normalized location frequency for each crime:
+
+![output_78_0](https://user-images.githubusercontent.com/19572673/85777656-cd897c80-b6ef-11ea-9858-ec3454df0f75.png)
+
+25. Wrote this dataset out which would then be used in PowerBI/Tableau for other visualization purposes.
 
 Old PowerBI Data Visualization (by Zip Code):
 https://github.com/pm831/City_Of_Chicago_Crime_Analysis/blob/master/Chicago_Crimes_Visualization.pbix
@@ -192,121 +273,27 @@ https://public.tableau.com/profile/pujan.malavia#!/
 
 ![Crimes vs  Poverty Viz](https://user-images.githubusercontent.com/19572673/85777591-c2cee780-b6ef-11ea-98c3-439e6d88437e.PNG)
 
-Python (Jupyter Notebook) Visualization:
-https://github.com/pm831/City_Of_Chicago_Crime_Analysis/blob/master/Chicago%20Crime%20Analysis.ipynb
+Modeling
 
-Number of Crimes by Type:
+26. Took a sample of 100000 to reduce the time it takes to run the model.
 
-![output_43_0](https://user-images.githubusercontent.com/19572673/85777642-cbbfb900-b6ef-11ea-9d1a-617670106ada.png)
+27. Dropped columns that were categorical in nature as variables that are numerical or categorical columns that are ordinal in nature are used as predictors.
 
-Occurence Rate: Types of Crimes:
-
-![output_45_1](https://user-images.githubusercontent.com/19572673/85777645-cbbfb900-b6ef-11ea-9edb-d66986a5594d.png)
-
-Occurence Rate: Scene of Crimes:
-
-![output_48_1](https://user-images.githubusercontent.com/19572673/85777646-cbbfb900-b6ef-11ea-9d98-5b03e14118e9.png)
-
-Occurence Rate: Hour Crime Occured:
-
-![time_hour](https://user-images.githubusercontent.com/19572673/85807848-19084e80-b721-11ea-97f0-d54b746d850e.png)
-
-Occurence Rate: Day Crime Occured:
-
-![day](https://user-images.githubusercontent.com/19572673/85807843-17d72180-b721-11ea-829b-8b805371e07f.png)
-
-Occurence Rate: Month Crime Occured:
-
-![month_occurence](https://user-images.githubusercontent.com/19572673/85807844-186fb800-b721-11ea-9b16-f9da02debc97.png)
-
-Normalized Crime Types by Location:
-
-![Normalized_Crime_By_Location](https://user-images.githubusercontent.com/19572673/85807846-186fb800-b721-11ea-8a71-62c76ac14967.png)
-
-Normalized Crime Types by Time:
-
-![Normalized_Crime_By_Hour](https://user-images.githubusercontent.com/19572673/85808259-4f929900-b722-11ea-9977-966c165b1fe7.png)
-
-Normalized Crime Types by Day:
-
-![Normalized_Crime_By_Day](https://user-images.githubusercontent.com/19572673/85807845-186fb800-b721-11ea-9d62-251c2f568007.png)
-
-Normalized Crime Types by Month:
-
-![Normalized_Crime_By_Month](https://user-images.githubusercontent.com/19572673/85807847-186fb800-b721-11ea-8986-99de6d18a558.png)
-
-Crime Rates: Forecast:
-
-![output_68_0](https://user-images.githubusercontent.com/19572673/85777648-cc584f80-b6ef-11ea-9813-a553ce41edd0.png)
-
-Heatmap: Crime types correlation based on arrest or domestic 
-(to note seriousness of crime)
-
-![output_69_1](https://user-images.githubusercontent.com/19572673/85777649-cc584f80-b6ef-11ea-978e-d4b8ced1c64c.png)
-
-Heatmap: Hour by Location
-
-![output_73_1](https://user-images.githubusercontent.com/19572673/85777650-ccf0e600-b6ef-11ea-8fcd-dd940d4158b1.png)
-
-Heatmap: Hour by Type
-
-![output_74_1](https://user-images.githubusercontent.com/19572673/85777651-ccf0e600-b6ef-11ea-899b-7648f8649161.png)
-
-Heatmap: Hour by Week
-
-![output_75_1](https://user-images.githubusercontent.com/19572673/85777652-ccf0e600-b6ef-11ea-9bb5-02339b2a39f9.png)
-
-Heatmap: Day of Week by Location
-
-![output_76_1](https://user-images.githubusercontent.com/19572673/85777654-ccf0e600-b6ef-11ea-851f-a620f41cc7af.png)
-
-Heatmap: Day of Week by Type
-
-![output_77_1](https://user-images.githubusercontent.com/19572673/85777655-ccf0e600-b6ef-11ea-9a6d-c79b245a2c98.png)
-
-Heatmap: Normalized location frequency for each crime:
-
-![output_78_0](https://user-images.githubusercontent.com/19572673/85777656-cd897c80-b6ef-11ea-9858-ec3454df0f75.png)
-
-Normalized Z-Score: Severity Comparison by the following variables:
-
-Latitude
-
-Longitude
-
-House_below_poverty
-
-Unemployed
-
-Under18_over64
-
-Income
-
-Hardship Index
+28. Plotted out normalized z-score graphs that compares severity (Severe vs. Nonsevere) of Latitude, Longitude, House_below_poverty, Unemployed, Under_18_over64, Income, and Hardship Index.
 
 ![output_95_0](https://user-images.githubusercontent.com/19572673/85777657-cd897c80-b6ef-11ea-9e80-d5d85b7e7218.png)
 
-Normalized Z-Score: Severity Comparison by the following variables:
-
-Latitude
-
-Longitude
-
-House_below_poverty
-
-Unemployed
-
-Under18_over64
-
-Income
-
-Hardship Index
+29. Plotted out normalized z-score graphs that compares severity (Severe vs. Nonsevere) of Latitude, Proportion of House Below Poverty, Proportion Unemployed, Proportion with Age Under 18 Over 64, and Income per Capita. 
 
 ![output_96_0](https://user-images.githubusercontent.com/19572673/85777659-cd897c80-b6ef-11ea-8205-9d75a79045ba.png)
 
-Plot those indicator variables that will be good predictor for whether a crime will be severe or not.
+30. Plotted indicator variables ('Police District 11', 'Time: 3am-6am', 'Time: 9am-12pm', 'Time: 12pm to 3pm', 'Location: apartment', 'Location: street') that will be good predictor for whether a crime will be severe or not.
 
 ![output_97_0](https://user-images.githubusercontent.com/19572673/85777660-ce221300-b6ef-11ea-9c06-025c3fe39a2f.png)
+
+31. Created baseline model of Severe vs. Non-Severe where would take the number of case numbers that are severe/not severe and dividing it by the total to get the %.
+
+32. Built a random forest model which gave roughly a 95% accuracy for the training set and a 67% accuracy for the test set.
 
 Training Accuracy comparison between Baseline model and Random Forest
 
