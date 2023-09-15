@@ -64,30 +64,30 @@ Banner Photo by Ferdinand Stohr from Unplash.
 
 ### Data Fields:
 
-unique_key: Unique identifier for the record.
+** unique_key: Unique identifier for the record.
 
-case_number: The Chicago Police Department RD Number (Records Division Number), which is unique to the incident.
+** case_number: The Chicago Police Department RD Number (Records Division Number), which is unique to the incident.
 
-Date Date: when the incident occurred. this is sometimes a best estimate.
+** Date Date: when the incident occurred. this is sometimes a best estimate.
 
-Block: The partially redacted address where the incident occurred, placing it on the same block as the actual address.
+** Block: The partially redacted address where the incident occurred, placing it on the same block as the actual address.
 
-Iucr: The Illinois Unifrom Crime Reporting code. This is directly linked to the Primary Type and Description. See the list of IUCR codes at https://data.cityofchicago.org/d/c7ck-438e.
+** Iucr: The Illinois Unifrom Crime Reporting code. This is directly linked to the Primary Type and Description. See the list of IUCR codes at https://data.cityofchicago.org/d/c7ck-438e.
 
-primary_type: The primary description of the IUCR code.
+** primary_type: The primary description of the IUCR code.
 
-Description: The secondary description of the IUCR code, a subcategory of the primary description.
+** Description: The secondary description of the IUCR code, a subcategory of the primary description.
 
-location_description: Description of the location where the incident occurred.
+** location_description: Description of the location where the incident occurred.
 
-Arrest: Indicates whether an arrest was made.
+** Arrest: Indicates whether an arrest was made.
 
-Domestic: Indicates whether the incident was domestic-related as defined by the Illinois Domestic Violence Act.
+** Domestic: Indicates whether the incident was domestic-related as defined by the Illinois Domestic Violence Act.
 
-Beat: Indicates the beat where the incident occurred. A beat is the smallest police geographic area – each beat has a dedicated police beat car. Three to five beats make up a police sector, and three sectors make up a police district. The Chicago Police Department has 22 police districts. See the beats at https://data.cityofchicago.org/d/aerh-rz74.
+** Beat: Indicates the beat where the incident occurred. A beat is the smallest police geographic area – each beat has a dedicated police beat car. Three to five beats make up a police sector, and three sectors make up a police district. The Chicago Police Department has 22 police districts. See the beats at https://data.cityofchicago.org/d/aerh-rz74.
 
-District: Indicates the police district where the incident occurred. See the districts at https://data.cityofchicago.org/d/fthy-xz3r.
-Ward: The ward (City Council district) where the incident occurred. See the wards at https://data.cityofchicago.org/d/sp34-6z76.
+** District: Indicates the police district where the incident occurred. See the districts at https://data.cityofchicago.org/d/fthy-xz3r.
+** Ward: The ward (City Council district) where the incident occurred. See the wards at https://data.cityofchicago.org/d/sp34-6z76.
 community_area: Indicates the community area where the incident occurred. Chicago has 77 community areas. See the community areas at https://data.cityofchicago.org/d/cauq-8yn6.
 
 fbi_code: Indicates the crime classification as outlined in the FBI's National Incident-Based Reporting System (NIBRS). See the Chicago Police Department listing of these classifications at http://gis.chicagopolice.org/clearmap_crime_sums/crime_types.html.
